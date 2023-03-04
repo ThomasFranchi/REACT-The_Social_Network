@@ -1,0 +1,45 @@
+
+.sidebar ul  {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+
+
+}
+
+.sidebar .link, .btnLogout {
+    color: rgb(181, 155, 206);
+    text-decoration: none;
+    transition: 300ms;
+    font-size: 20px;
+    transition: 300ms;
+    padding: 0 10px;
+}
+
+.sidebar li {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+
+
+.sidebar .link:hover, .btnLogout:hover {
+    color: white;
+}
+
+
+nav.sidebar {
+    display: fixed;
+    background-color: #405898 ;
+    top: 0;
+    bottom:0;
+    left:0;
+    width: 220px;
+    z-index: 1;
+    margin-top: 50px;
+
+}
+
+
